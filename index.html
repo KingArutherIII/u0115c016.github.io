@@ -7,80 +7,155 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"
-    <title>my index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68f8681dba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>我的網頁</title>
 </head>
-    
-    <body><!--第一段上方標題文字-->
-        <section id="intro">
-            <div class="container">
-                <h1 class="display-4">korea最好吃好玩行程</h1>
-                <p class="lead">life boring?join go to forign</p>
-
+<!--css ref https://www.wibibi.com/info.php?tid=CSS_display_%E5%B1%AC%E6%80%A7-->
+<body>
+    <!--Nav-->
+    <header>
+        <div class='container'>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">導覽區</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="https://www.google.com">google</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active">VUE作品</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
             </div>
-        </section>
-
-    </body>
-</html>
-
-<h3>latest party</h3>
-    <div class='row'>
-        <div class='col-md-4 text-left'>
-            <div class='outer'>
-                <a href='#'>
-                    <div class='upper'>
-                    <img src='pictures/inner.png'>
-                    </a>
-                    <div class='innertext'>
-                        <span>可報名</span>
-                        <h4>male:HKD380 female:HKD280</h4>
-                    </div>
-                    </div>
-                    <div class='lower'>
-                        <h3>狂歡派對(旅行篇)-11月</h3>
-        <span><i class="fans "></i></span>
-                    </div>
+    </header>
+    <!--第一段上方的標題文字-->
+    <section id="intro">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="display-4">台灣八卦山簡介</h1>
+                <p class="lead">一起參觀彰化地標八卦山</p>
+                <a href="#">附近景點</a>
             </div>
         </div>
-    </div>
-<footer>
-    <div class="container">
-        <div class='row'>
-            <div class='col-md-4 text-left'>
-                <img src='pictures/logo.jpg' width='85'>
-
-            </div>
-        </div>
-    </div>
-    <div class='col-md-4 text-left'>
-        <h4>連結</h4>
-        <ul>
-            <li><a href='index.html'>主頁</a></li>
-            <li><a href='all.html'>最新派對</a></li>
-        </ul>
-        <ul>
-            <li><a href='fag.html'>常見問題</a></li>
-            <li><a href='contact.html'>聯絡我們</a></li>
-        </ul>
-    </div>
-    <div></div>
-</footer>
-<!--<section id='email'>
+    </section>
+    <!--第二段介簡-->
+    <section id='second'>
         <div class="container">
             <div class='row'>
-                <div class='col-md-8 offset-md-2 text-center'>
-                <h3>加入K.O. Party的Email List</h3>
-                </div>
+                  <div class='col-md-8 offset-md-2 text-center'>
+                      <h3>八卦山簡介</h3>
+                      <div class='row'>
+                          <div class='col-md-4 text-center'>
+                              <img src='pictures/inner.png'><!--ref https://travelimg.yam.com/cdn-cgi/image/w=1200,h=630,fit=cover/DATA/ARTICLE/2020090211371528.jpg-->
+                              <h5>彰化地標大佛(風景區)</h5>
+                          </div>
+                          <div class='col-md-8 text-left'>
+                              <h3>地理</h3>
+                              <p class='lead'>八卦山位於彰化市東區，屬於八卦台地，目前有逐漸發展為山脈的趨勢，八卦山位於八卦台地之北側，北邊為因大肚溪之侵蝕作用而分開的大肚台地，西側坡度陡峭，緊鄰彰化平原，東側地勢較為緩和，擁有完整的地形面。八卦山地勢並不高，約97公尺高，視野極佳，地處台灣中部之軍事要衝，自古以來便有著特殊的地位。</p>
+                              <h3>名稱由來</h3>
+                              <p>八卦山之名。其名來由，眾說紛紜。一說是此山的山形有如八卦之圖；但最廣為大家接受的說法則與清朝天地會之餘黨八卦會(主要活動於彰化)有關；但卻無正史可考其與八卦會的關聯。</p>
+                              <h3>天地會之八卦會簡介</h3>
+                              <p>天地會時間與緣由與金庸小說鹿鼎記(韋小寶港片系列)相同皆為反清復明之民間團體，最大不同，就是八卦會(天地會餘黨)其實是自台灣明鄭時期結束後，</p>
+                              <h5>由道道地地的台灣人組成的反清武裝民間團體(原本是地方民間維和團體，後來官逼民反)</h5>
+                              <!--ref https://zh.wikipedia.org/zh-tw/%E5%85%AB%E5%8D%A6%E5%B1%B1_(%E5%BD%B0%E5%8C%96%E7%B8%A3)
+                              https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2154
+                              https://www.travelking.com.tw/tourguide/scenery1.html
+                              https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2154&layer1=10-->
+                            </div>
+                      </div>
+                  </div>
+            <div>
+        </div>    
+    </section> 
+    <!--第三段商品-->
+    <section id='latest'>
+      <div class="container">
+        <div class='row'>
+        <div class='col-md-12 text-center'>
+          <h3>周邊資訊/景點</h3>
+          <div class='row'>
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='#'>
+                  <div class='upper'>
+                  <img src='pictures/scenery.png'><!--wiki-->>
+                  </a>
+                  <!--<div class='innertext'>
+                    <span>可報名</span>
+                    <h4>男：HKD380  女：HKD280</h4>
+                  </div>-->
+                  </div>
+                  <div class='lower'>
+                    <h3>周邊資訊景點</h3>
+            <span><i class="fas fa-map-marker-alt">香港銅鑼灣怡和街2-6號 英光大廈 7樓全層</i></span><br>
+                    <span><i class="far fa-clock"></i> Nov 03, 2018 08:00PM</span>
+                  </div>
+              </div>
             </div>
-            <div class='row'>
-                <div class='col-md-8 offset-md-2 text-left'>  
-                <p>讓我們有最新派對便通知你吧！</p>             
-                    <div class="input-group input-group-lg">
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵">
-                    </div>
-                <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
-                </div>
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='#'>
+                  <div class='upper'>
+                  <img src='pictures/food.jpg'><!--https://www.bing.com/images/search?view=detailV2&ccid=%2bbdEG61q&id=75B01D8D49EE3DD877DFD89D8C19999D11350975&thid=OIP.-bdEG61qh2I-7Foj6uxRRwHaFj&mediaurl=https%3a%2f%2fimg.achingfoodie.tw%2fuploads%2f20201001235422_23.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f9b7441bad6a87623eec5a23eaec5147%3frik%3ddQk1EZ2ZGYyd2A%26pid%3dImgRaw%26r%3d0&exph=1536&expw=2048&q=%e5%bd%b0%e5%8c%96%e6%b6%bc%e5%9c%93&simid=608018514654884613&FORM=IRPRST&ck=E6D911A780E3E4497377E123C0B85D6E&selectedIndex=0-->
+                  </a>
+                  <!--<div class='innertext'>
+                    <span>可報名</span>
+                    <h4>男：HKD380  女：HKD280</h4>
+                  </div>-->
+                  </div>
+                  <div class='lower'>
+                    <h3>周邊美食</h3>
+            <span><i class="fas fa-map-marker-alt">香港銅鑼灣怡和街2-6號 英光大廈 7樓全層</i></span><br>
+                    <span><i class="far fa-clock"></i> Nov 03, 2018 08:00PM</span>
+                  </div>
+              </div>
             </div>
-        </div>
-    </section>-->
+          </section>
+<!--第四段Email link-->
+<section id='email'>
+  <div class="container">
+    <div class='row'>
+    <div class='col-md-8 offset-md-2 text-center'>
+      <h3>加入訂閱旅遊相關電子報</h3>
+    </div>
+    </div>
+    <div class='row'>
+    <div class='col-md-8 offset-md-2 text-left'>		
+    <p>接收最新台灣旅遊資訊</p>        		  	
+      <div class="input-group input-group-lg">
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵">
+    </div>
+    <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
+    </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
